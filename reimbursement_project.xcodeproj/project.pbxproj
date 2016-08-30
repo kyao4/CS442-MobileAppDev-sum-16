@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6E08D31D24633C00ECA0C9 /* ListSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E08D21D24633C00ECA0C9 /* ListSecondViewController.swift */; };
+		AD6E08D91D246AD800ECA0C9 /* ListThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E08D81D246AD800ECA0C9 /* ListThirdViewController.swift */; };
+		EF3C4D341D18D7C300CE4585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3C4D331D18D7C300CE4585 /* AppDelegate.swift */; };
+		EF3C4D361D18D7C300CE4585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3C4D351D18D7C300CE4585 /* ViewController.swift */; };
+		EF3C4D391D18D7C300CE4585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3C4D371D18D7C300CE4585 /* Main.storyboard */; };
+		EF3C4D3C1D18D7C300CE4585 /* reimbursement_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF3C4D3A1D18D7C300CE4585 /* reimbursement_project.xcdatamodeld */; };
+		EF3C4D3E1D18D7C300CE4585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3C4D3D1D18D7C300CE4585 /* Assets.xcassets */; };
+		EF3C4D411D18D7C300CE4585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3C4D3F1D18D7C300CE4585 /* LaunchScreen.storyboard */; };
+		EF3C4D4C1D18D7C300CE4585 /* reimbursement_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3C4D4B1D18D7C300CE4585 /* reimbursement_projectTests.swift */; };
+		EF3C4D571D18D7C300CE4585 /* reimbursement_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3C4D561D18D7C300CE4585 /* reimbursement_projectUITests.swift */; };
+		EF3E81C91D1DD64F00AE5833 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3E81C21D1DD62400AE5833 /* Charts.framework */; };
+		EF3E81CB1D1E2E3700AE5833 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3E81CA1D1E2E3700AE5833 /* ChartModel.swift */; };
+		EFA85F981D241AE40086BAA1 /* ListFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA85F971D241AE40086BAA1 /* ListFirstViewController.swift */; };
+		EFA85FA31D2448FD0086BAA1 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA85FA21D2448FD0086BAA1 /* ListModel.swift */; };
+		EFC78CF71D1CC7EB007BB487 /* ChartFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC78CF61D1CC7EB007BB487 /* ChartFirstViewController.swift */; };
+		EFC78CF91D1CCC1A007BB487 /* ChartSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC78CF81D1CCC1A007BB487 /* ChartSecondViewController.swift */; };
+		EFC78CFB1D1CDAA3007BB487 /* ChartThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC78CFA1D1CDAA3007BB487 /* ChartThirdViewController.swift */; };
+		EFF8BEF31D18E0170068F6C6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BEF21D18E0170068F6C6 /* libsqlite3.0.tbd */; };
+		EFF8BEF71D18E58A0068F6C6 /* reimbursement.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BEF61D18E55D0068F6C6 /* reimbursement.sqlite3 */; };
+		EFFED76B1D1A05BF00091C5D /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED7651D1A05BF00091C5D /* Department+CoreDataProperties.swift */; };
+		EFFED76C1D1A05BF00091C5D /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED7661D1A05BF00091C5D /* Department.swift */; };
+		EFFED76D1D1A05BF00091C5D /* Payment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED7671D1A05BF00091C5D /* Payment+CoreDataProperties.swift */; };
+		EFFED76E1D1A05BF00091C5D /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED7681D1A05BF00091C5D /* Payment.swift */; };
+		EFFED76F1D1A05BF00091C5D /* Vendor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED7691D1A05BF00091C5D /* Vendor+CoreDataProperties.swift */; };
+		EFFED7701D1A05BF00091C5D /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFED76A1D1A05BF00091C5D /* Vendor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3C4D481D18D7C300CE4585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3C4D281D18D7C300CE4585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3C4D2F1D18D7C300CE4585;
+			remoteInfo = reimbursement_project;
+		};
+		EF3C4D531D18D7C300CE4585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3C4D281D18D7C300CE4585 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3C4D2F1D18D7C300CE4585;
+			remoteInfo = reimbursement_project;
+		};
+		EF3E81C11D1DD62400AE5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		EF3E81C31D1DD62400AE5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		EF3E81C51D1DD62400AE5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		EF3E81C71D1DD62400AE5833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD6E08D21D24633C00ECA0C9 /* ListSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSecondViewController.swift; sourceTree = "<group>"; };
+		AD6E08D81D246AD800ECA0C9 /* ListThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListThirdViewController.swift; sourceTree = "<group>"; };
+		EF3C4D301D18D7C300CE4585 /* reimbursement_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reimbursement_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C4D331D18D7C300CE4585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF3C4D351D18D7C300CE4585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF3C4D381D18D7C300CE4585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3C4D3B1D18D7C300CE4585 /* reimbursement_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = reimbursement_project.xcdatamodel; sourceTree = "<group>"; };
+		EF3C4D3D1D18D7C300CE4585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3C4D401D18D7C300CE4585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3C4D421D18D7C300CE4585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3C4D471D18D7C300CE4585 /* reimbursement_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reimbursement_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C4D4B1D18D7C300CE4585 /* reimbursement_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reimbursement_projectTests.swift; sourceTree = "<group>"; };
+		EF3C4D4D1D18D7C300CE4585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3C4D521D18D7C300CE4585 /* reimbursement_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reimbursement_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3C4D561D18D7C300CE4585 /* reimbursement_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reimbursement_projectUITests.swift; sourceTree = "<group>"; };
+		EF3C4D581D18D7C300CE4585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = Charts/Charts.xcodeproj; sourceTree = SOURCE_ROOT; };
+		EF3E81CA1D1E2E3700AE5833 /* ChartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		EFA85F971D241AE40086BAA1 /* ListFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListFirstViewController.swift; path = mainView/ListFirstViewController.swift; sourceTree = "<group>"; };
+		EFA85FA21D2448FD0086BAA1 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		EFC78CF61D1CC7EB007BB487 /* ChartFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartFirstViewController.swift; sourceTree = "<group>"; };
+		EFC78CF81D1CCC1A007BB487 /* ChartSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSecondViewController.swift; sourceTree = "<group>"; };
+		EFC78CFA1D1CDAA3007BB487 /* ChartThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartThirdViewController.swift; sourceTree = "<group>"; };
+		EFF8BEF21D18E0170068F6C6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EFF8BEF41D18E0450068F6C6 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		EFF8BEF61D18E55D0068F6C6 /* reimbursement.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = reimbursement.sqlite3; sourceTree = "<group>"; };
+		EFFED7651D1A05BF00091C5D /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Department+CoreDataProperties.swift"; path = "../Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFFED7661D1A05BF00091C5D /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Department.swift; path = ../Department.swift; sourceTree = "<group>"; };
+		EFFED7671D1A05BF00091C5D /* Payment+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Payment+CoreDataProperties.swift"; path = "../Payment+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFFED7681D1A05BF00091C5D /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Payment.swift; path = ../Payment.swift; sourceTree = "<group>"; };
+		EFFED7691D1A05BF00091C5D /* Vendor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Vendor+CoreDataProperties.swift"; path = "../Vendor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EFFED76A1D1A05BF00091C5D /* Vendor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vendor.swift; path = ../Vendor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3C4D2D1D18D7C300CE4585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3E81C91D1DD64F00AE5833 /* Charts.framework in Frameworks */,
+				EFF8BEF31D18E0170068F6C6 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D441D18D7C300CE4585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D4F1D18D7C300CE4585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3C4D271D18D7C300CE4585 = {
+			isa = PBXGroup;
+			children = (
+				EF3C4D321D18D7C300CE4585 /* reimbursement_project */,
+				EF3C4D4A1D18D7C300CE4585 /* reimbursement_projectTests */,
+				EF3C4D551D18D7C300CE4585 /* reimbursement_projectUITests */,
+				EF3C4D311D18D7C300CE4585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3C4D311D18D7C300CE4585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C4D301D18D7C300CE4585 /* reimbursement_project.app */,
+				EF3C4D471D18D7C300CE4585 /* reimbursement_projectTests.xctest */,
+				EF3C4D521D18D7C300CE4585 /* reimbursement_projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3C4D321D18D7C300CE4585 /* reimbursement_project */ = {
+			isa = PBXGroup;
+			children = (
+				EFFED7651D1A05BF00091C5D /* Department+CoreDataProperties.swift */,
+				EFFED7661D1A05BF00091C5D /* Department.swift */,
+				EFFED7671D1A05BF00091C5D /* Payment+CoreDataProperties.swift */,
+				EFFED7681D1A05BF00091C5D /* Payment.swift */,
+				EFFED7691D1A05BF00091C5D /* Vendor+CoreDataProperties.swift */,
+				EFFED76A1D1A05BF00091C5D /* Vendor.swift */,
+				EFF8BEF61D18E55D0068F6C6 /* reimbursement.sqlite3 */,
+				EFF8BEF21D18E0170068F6C6 /* libsqlite3.0.tbd */,
+				EF3C4D331D18D7C300CE4585 /* AppDelegate.swift */,
+				EF3C4D351D18D7C300CE4585 /* ViewController.swift */,
+				EFA85F971D241AE40086BAA1 /* ListFirstViewController.swift */,
+				AD6E08D21D24633C00ECA0C9 /* ListSecondViewController.swift */,
+				AD6E08D81D246AD800ECA0C9 /* ListThirdViewController.swift */,
+				EFA85FA21D2448FD0086BAA1 /* ListModel.swift */,
+				EFC78CF61D1CC7EB007BB487 /* ChartFirstViewController.swift */,
+				EFC78CF81D1CCC1A007BB487 /* ChartSecondViewController.swift */,
+				EFC78CFA1D1CDAA3007BB487 /* ChartThirdViewController.swift */,
+				EF3E81CA1D1E2E3700AE5833 /* ChartModel.swift */,
+				EF3C4D371D18D7C300CE4585 /* Main.storyboard */,
+				EF3C4D3D1D18D7C300CE4585 /* Assets.xcassets */,
+				EF3C4D3F1D18D7C300CE4585 /* LaunchScreen.storyboard */,
+				EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */,
+				EF3C4D421D18D7C300CE4585 /* Info.plist */,
+				EF3C4D3A1D18D7C300CE4585 /* reimbursement_project.xcdatamodeld */,
+				EFF8BEF41D18E0450068F6C6 /* bridging-header.h */,
+			);
+			path = reimbursement_project;
+			sourceTree = "<group>";
+		};
+		EF3C4D4A1D18D7C300CE4585 /* reimbursement_projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C4D4B1D18D7C300CE4585 /* reimbursement_projectTests.swift */,
+				EF3C4D4D1D18D7C300CE4585 /* Info.plist */,
+			);
+			path = reimbursement_projectTests;
+			sourceTree = "<group>";
+		};
+		EF3C4D551D18D7C300CE4585 /* reimbursement_projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C4D561D18D7C300CE4585 /* reimbursement_projectUITests.swift */,
+				EF3C4D581D18D7C300CE4585 /* Info.plist */,
+			);
+			path = reimbursement_projectUITests;
+			sourceTree = "<group>";
+		};
+		EF3E81BB1D1DD62300AE5833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3E81C21D1DD62400AE5833 /* Charts.framework */,
+				EF3E81C41D1DD62400AE5833 /* Charts.framework */,
+				EF3E81C61D1DD62400AE5833 /* Charts.framework */,
+				EF3E81C81D1DD62400AE5833 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3C4D2F1D18D7C300CE4585 /* reimbursement_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C4D5B1D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_project" */;
+			buildPhases = (
+				EF3C4D2C1D18D7C300CE4585 /* Sources */,
+				EF3C4D2D1D18D7C300CE4585 /* Frameworks */,
+				EF3C4D2E1D18D7C300CE4585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reimbursement_project;
+			productName = reimbursement_project;
+			productReference = EF3C4D301D18D7C300CE4585 /* reimbursement_project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3C4D461D18D7C300CE4585 /* reimbursement_projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C4D5E1D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_projectTests" */;
+			buildPhases = (
+				EF3C4D431D18D7C300CE4585 /* Sources */,
+				EF3C4D441D18D7C300CE4585 /* Frameworks */,
+				EF3C4D451D18D7C300CE4585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3C4D491D18D7C300CE4585 /* PBXTargetDependency */,
+			);
+			name = reimbursement_projectTests;
+			productName = reimbursement_projectTests;
+			productReference = EF3C4D471D18D7C300CE4585 /* reimbursement_projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3C4D511D18D7C300CE4585 /* reimbursement_projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3C4D611D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_projectUITests" */;
+			buildPhases = (
+				EF3C4D4E1D18D7C300CE4585 /* Sources */,
+				EF3C4D4F1D18D7C300CE4585 /* Frameworks */,
+				EF3C4D501D18D7C300CE4585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3C4D541D18D7C300CE4585 /* PBXTargetDependency */,
+			);
+			name = reimbursement_projectUITests;
+			productName = reimbursement_projectUITests;
+			productReference = EF3C4D521D18D7C300CE4585 /* reimbursement_projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3C4D281D18D7C300CE4585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kai Yao";
+				TargetAttributes = {
+					EF3C4D2F1D18D7C300CE4585 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF3C4D461D18D7C300CE4585 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF3C4D2F1D18D7C300CE4585;
+					};
+					EF3C4D511D18D7C300CE4585 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF3C4D2F1D18D7C300CE4585;
+					};
+				};
+			};
+			buildConfigurationList = EF3C4D2B1D18D7C300CE4585 /* Build configuration list for PBXProject "reimbursement_project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3C4D271D18D7C300CE4585;
+			productRefGroup = EF3C4D311D18D7C300CE4585 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EF3E81BB1D1DD62300AE5833 /* Products */;
+					ProjectRef = EF3E81BA1D1DD62300AE5833 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EF3C4D2F1D18D7C300CE4585 /* reimbursement_project */,
+				EF3C4D461D18D7C300CE4585 /* reimbursement_projectTests */,
+				EF3C4D511D18D7C300CE4585 /* reimbursement_projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EF3E81C21D1DD62400AE5833 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = EF3E81C11D1DD62400AE5833 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF3E81C41D1DD62400AE5833 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = EF3E81C31D1DD62400AE5833 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF3E81C61D1DD62400AE5833 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = EF3E81C51D1DD62400AE5833 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF3E81C81D1DD62400AE5833 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = EF3E81C71D1DD62400AE5833 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3C4D2E1D18D7C300CE4585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BEF71D18E58A0068F6C6 /* reimbursement.sqlite3 in Resources */,
+				EF3C4D411D18D7C300CE4585 /* LaunchScreen.storyboard in Resources */,
+				EF3C4D3E1D18D7C300CE4585 /* Assets.xcassets in Resources */,
+				EF3C4D391D18D7C300CE4585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D451D18D7C300CE4585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D501D18D7C300CE4585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3C4D2C1D18D7C300CE4585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6E08D31D24633C00ECA0C9 /* ListSecondViewController.swift in Sources */,
+				EFFED7701D1A05BF00091C5D /* Vendor.swift in Sources */,
+				EF3C4D361D18D7C300CE4585 /* ViewController.swift in Sources */,
+				EFFED76B1D1A05BF00091C5D /* Department+CoreDataProperties.swift in Sources */,
+				EF3E81CB1D1E2E3700AE5833 /* ChartModel.swift in Sources */,
+				EFC78CF91D1CCC1A007BB487 /* ChartSecondViewController.swift in Sources */,
+				EFFED76E1D1A05BF00091C5D /* Payment.swift in Sources */,
+				EFC78CF71D1CC7EB007BB487 /* ChartFirstViewController.swift in Sources */,
+				AD6E08D91D246AD800ECA0C9 /* ListThirdViewController.swift in Sources */,
+				EFFED76F1D1A05BF00091C5D /* Vendor+CoreDataProperties.swift in Sources */,
+				EFFED76C1D1A05BF00091C5D /* Department.swift in Sources */,
+				EFA85FA31D2448FD0086BAA1 /* ListModel.swift in Sources */,
+				EF3C4D341D18D7C300CE4585 /* AppDelegate.swift in Sources */,
+				EFC78CFB1D1CDAA3007BB487 /* ChartThirdViewController.swift in Sources */,
+				EFFED76D1D1A05BF00091C5D /* Payment+CoreDataProperties.swift in Sources */,
+				EF3C4D3C1D18D7C300CE4585 /* reimbursement_project.xcdatamodeld in Sources */,
+				EFA85F981D241AE40086BAA1 /* ListFirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D431D18D7C300CE4585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3C4D4C1D18D7C300CE4585 /* reimbursement_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3C4D4E1D18D7C300CE4585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3C4D571D18D7C300CE4585 /* reimbursement_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3C4D491D18D7C300CE4585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3C4D2F1D18D7C300CE4585 /* reimbursement_project */;
+			targetProxy = EF3C4D481D18D7C300CE4585 /* PBXContainerItemProxy */;
+		};
+		EF3C4D541D18D7C300CE4585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3C4D2F1D18D7C300CE4585 /* reimbursement_project */;
+			targetProxy = EF3C4D531D18D7C300CE4585 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3C4D371D18D7C300CE4585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3C4D381D18D7C300CE4585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3C4D3F1D18D7C300CE4585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3C4D401D18D7C300CE4585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3C4D591D18D7C300CE4585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3C4D5A1D18D7C300CE4585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3C4D5C1D18D7C300CE4585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reimbursement_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "reimbursement_project/bridging-header.h";
+			};
+			name = Debug;
+		};
+		EF3C4D5D1D18D7C300CE4585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = reimbursement_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "reimbursement_project/bridging-header.h";
+			};
+			name = Release;
+		};
+		EF3C4D5F1D18D7C300CE4585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reimbursement_projectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reimbursement_project.app/reimbursement_project";
+			};
+			name = Debug;
+		};
+		EF3C4D601D18D7C300CE4585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = reimbursement_projectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reimbursement_project.app/reimbursement_project";
+			};
+			name = Release;
+		};
+		EF3C4D621D18D7C300CE4585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = reimbursement_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reimbursement_project;
+			};
+			name = Debug;
+		};
+		EF3C4D631D18D7C300CE4585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = reimbursement_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "K.reimbursement-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = reimbursement_project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3C4D2B1D18D7C300CE4585 /* Build configuration list for PBXProject "reimbursement_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C4D591D18D7C300CE4585 /* Debug */,
+				EF3C4D5A1D18D7C300CE4585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C4D5B1D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C4D5C1D18D7C300CE4585 /* Debug */,
+				EF3C4D5D1D18D7C300CE4585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C4D5E1D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C4D5F1D18D7C300CE4585 /* Debug */,
+				EF3C4D601D18D7C300CE4585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3C4D611D18D7C300CE4585 /* Build configuration list for PBXNativeTarget "reimbursement_projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C4D621D18D7C300CE4585 /* Debug */,
+				EF3C4D631D18D7C300CE4585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF3C4D3A1D18D7C300CE4585 /* reimbursement_project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF3C4D3B1D18D7C300CE4585 /* reimbursement_project.xcdatamodel */,
+			);
+			currentVersion = EF3C4D3B1D18D7C300CE4585 /* reimbursement_project.xcdatamodel */;
+			path = reimbursement_project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF3C4D281D18D7C300CE4585 /* Project object */;
+}

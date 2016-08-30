@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Department" representedClassName=".Department" syncable="YES">
+        <attribute name="department_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="payments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="department" inverseEntity="Payment" syncable="YES"/>
+        <relationship name="vendors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vendor" inverseName="department" inverseEntity="Vendor" syncable="YES"/>
+    </entity>
+    <entity name="Payment" representedClassName=".Payment" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mydescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="payment_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voucher_number" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="payments" inverseEntity="Department" syncable="YES"/>
+        <relationship name="vendor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vendor" inverseName="payments" inverseEntity="Vendor" syncable="YES"/>
+    </entity>
+    <entity name="Vendor" representedClassName=".Vendor" syncable="YES">
+        <attribute name="vendor_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="vendors" inverseEntity="Department" syncable="YES"/>
+        <relationship name="payments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Payment" inverseName="vendor" inverseEntity="Payment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-785" positionY="-585" width="128" height="88"/>
+        <element name="Payment" positionX="-182" positionY="-630" width="128" height="133"/>
+        <element name="Vendor" positionX="-468" positionY="-376" width="128" height="88"/>
+    </elements>
+</model>
