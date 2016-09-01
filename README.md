@@ -18,17 +18,17 @@ Then open this project in your Xcode, run the project on IPhone5 (where I tested
 
 ## Examples
 
-![ListView](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/1.png)
-![Sort by department](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/2.png)
-![Sort by date](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/3.png)
-![Item showed by certain date](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/4.png)
-![Item](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/5.png)
-![ChartView](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/6.png)
-![Barchart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/7.png)
-![Chicago Department of Police](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/8.png)
-![Chicago Department of Police](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/9.png)
-![Piechart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/10.png)
-![Linechart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/image/11.png)
+![ListView](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/1.png)
+![Sort by department](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/2.png)
+![Sort by date](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/3.png)
+![Item showed by certain date](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/4.png)
+![Item](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/5.png)
+![ChartView](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/6.png)
+![Barchart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/7.png)
+![Chicago Department of Police](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/8.png)
+![Chicago Department of Police](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/9.png)
+![Piechart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/10.png)
+![Linechart](https://github.com/kyao4/CS442-MobileAppDev-sum-16/blob/master/image/11.png)
 
 # Team member:
 * Kai Yao A20347045
